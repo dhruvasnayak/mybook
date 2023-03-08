@@ -8,13 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBYlamgKspE-TV9wnhwZFqyvfpee_D2JBg",
-  authDomain: "mybook-f1164.firebaseapp.com",
-  projectId: "mybook-f1164",
-  storageBucket: "mybook-f1164.appspot.com",
-  messagingSenderId: "619024847789",
-  appId: "1:619024847789:web:48d0111e7500fe8b0fc724",
-  measurementId: "G-JT498H0R5W"
+ 
 };
 
 firebase.initializeApp(firebaseConfig);
